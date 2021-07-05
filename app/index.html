@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CarelyTeam API</title>
+    </head>
+    <body>
+        <div
+            class="container"
+            style="
+                display: flex;
+                flex-direction: column;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            "
+        >
+            <h1 style="align-self: center">Liste des routes</h1>
+            <h2 style="align-self: center">
+                Bienvenue sur l'API CarelyTeam => http://localhost:3000
+            </h2>
+            <pre>
+          <ul style="align-self: center; font-size: 1.5rem;">
+            <li>get => /companies           => affichage de la liste des établissements</li>
+            <li>get => /company/:finess     => affichage d'un établissement</li>
+            <li>get => /users               => affichage de la liste des users</li>
+            <li>get => /user/:id            => affichage d'un user</li>
+            <li>post => /users              => création d'un user</li>
+            <li>put => /user/:id            => modification d'un user</li>
+            <li>delete => /user/:id         => suppression d'un user</li>
+            <li>post => /user               => login d'un user</li>
+            <li>post => /user/refresh       => persistance des données d'un user dans le state</li>
+            <li>post => /user/forgot        => réinitialisation du mot de passe</li>
+            <li>get => /groups              => affichage de la liste des groupes</li>
+            <li>get => /group/:id           => affichage d'un groupe</li> 
+            <li>post => /groups             => création d'un groupe</li>
+            <li>put => /group/:id           => modification d'un groupe</li>
+            <li>delete => /group/:id        => suppression d'un groupe</li>
+            <li>get => /messages            => affichage de la liste des messages</li>
+            <li>get => /message/:id         => affichage d'un message</li>
+            <li>post => /messages           => création d'un message</li>
+            <li>put => /message/:id         => modification d'un message</li>
+            <li>delete => /message/:id      => suppression d'un message</li>
+            <li>post => /contact            => message formulaire de contact</li>
+            <li>post => /forgot             => message avec lien réinitialisation mot de passe</li>
+            <li>post => /reset              => message validation réinitialisation mot de passe</li>
+            <li>post => /invite             => message d'invitation pour inscription d'un employé</li>
+          </ul>
+      </pre>
+        </div>
+    </body>
+</html>
